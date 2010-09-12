@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/auth
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/auth/__init__.py
+END
+ldap_backend.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/auth/ldap_backend.py
+END

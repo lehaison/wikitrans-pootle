@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/middleware/profiling
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/middleware/profiling/__init__.py
+END
+lsprofcalltree.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/middleware/profiling/lsprofcalltree.py
+END

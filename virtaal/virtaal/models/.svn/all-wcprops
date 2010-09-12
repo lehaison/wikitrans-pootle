@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/14865/src/trunk/virtaal/virtaal/models
+END
+basemodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/models/basemodel.py
+END
+storemodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/14865/src/trunk/virtaal/virtaal/models/storemodel.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/models/__init__.py
+END
+langmodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/10180/src/trunk/virtaal/virtaal/models/langmodel.py
+END
+undomodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/models/undomodel.py
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/14882/src/trunk/virtaal/virtaal/plugins/terminology
+END
+termcontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/translate/!svn/ver/14347/src/trunk/virtaal/virtaal/plugins/terminology/termcontroller.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/12979/src/trunk/virtaal/virtaal/plugins/terminology/__init__.py
+END
+termview.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/14358/src/trunk/virtaal/virtaal/plugins/terminology/termview.py
+END

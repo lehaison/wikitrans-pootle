@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/15487/src/trunk/translate/misc
+END
+test_progressbar.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/15384/src/trunk/translate/misc/test_progressbar.py
+END
+progressbar.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/15383/src/trunk/translate/misc/progressbar.py
+END
+test_optrecurse.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/10177/src/trunk/translate/misc/test_optrecurse.py
+END
+sparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/14048/src/trunk/translate/misc/sparse.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/misc/__init__.py
+END
+xmlwrapper.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14059/src/trunk/translate/misc/xmlwrapper.py
+END
+lru.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/14611/src/trunk/translate/misc/lru.py
+END
+stdiotell.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/misc/stdiotell.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/12973/src/trunk/translate/misc/wsgi.py
+END
+ini.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/translate/!svn/ver/6744/src/trunk/translate/misc/ini.py
+END
+test_multistring.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/15487/src/trunk/translate/misc/test_multistring.py
+END
+multistring.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14612/src/trunk/translate/misc/multistring.py
+END
+hash.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/9488/src/trunk/translate/misc/hash.py
+END
+zipfileext.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14288/src/trunk/translate/misc/zipfileext.py
+END
+context.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/8735/src/trunk/translate/misc/context.py
+END
+wStringIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/9059/src/trunk/translate/misc/wStringIO.py
+END
+test_autoencode.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/6154/src/trunk/translate/misc/test_autoencode.py
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/misc/.cvsignore
+END
+optrecurse.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14946/src/trunk/translate/misc/optrecurse.py
+END
+test_quote.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15486/src/trunk/translate/misc/test_quote.py
+END
+quote.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/15483/src/trunk/translate/misc/quote.py
+END
+test_dictutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/4500/src/trunk/translate/misc/test_dictutils.py
+END
+dictutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/14062/src/trunk/translate/misc/dictutils.py
+END
+ourdom.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/14049/src/trunk/translate/misc/ourdom.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/misc/README
+END
+file_discovery.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/11777/src/trunk/translate/misc/file_discovery.py
+END
+contextlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/9916/src/trunk/translate/misc/contextlib.py
+END
+textwrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/9228/src/trunk/translate/misc/textwrap.py
+END
+selector.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/9852/src/trunk/translate/misc/selector.py
+END
+xml_helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14053/src/trunk/translate/misc/xml_helpers.py
+END
+test_zipfileext.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/7476/src/trunk/translate/misc/test_zipfileext.py
+END
+autoencode.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/6168/src/trunk/translate/misc/autoencode.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/12379/src/trunk/Pootle/pootle/legacy/jToolkit
+END
+sparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/12379/src/trunk/Pootle/pootle/legacy/jToolkit/sparse.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/12379/src/trunk/Pootle/pootle/legacy/jToolkit/__init__.py
+END
+prefs.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/12379/src/trunk/Pootle/pootle/legacy/jToolkit/prefs.py
+END
+__version__.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/12379/src/trunk/Pootle/pootle/legacy/jToolkit/__version__.py
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/translate/!svn/ver/13319/src/trunk/Pootle/local_apps/pootle_notifications/templatetags
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/translate/!svn/ver/12802/src/trunk/Pootle/local_apps/pootle_notifications/templatetags/__init__.py
+END
+notification_tags.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/translate/!svn/ver/13319/src/trunk/Pootle/local_apps/pootle_notifications/templatetags/notification_tags.py
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/15541/src/trunk/Pootle/local_apps/pootle_notifications
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/14897/src/trunk/Pootle/local_apps/pootle_notifications/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/11833/src/trunk/Pootle/local_apps/pootle_notifications/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/15392/src/trunk/Pootle/local_apps/pootle_notifications/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/12595/src/trunk/Pootle/local_apps/pootle_notifications/urls.py
+END
+feeds.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/13710/src/trunk/Pootle/local_apps/pootle_notifications/feeds.py
+END

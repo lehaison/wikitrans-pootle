@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/LICENSE.txt
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/__init__.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/README.txt
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/urls.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/15164/src/trunk/Pootle/external_apps/contact_form_i18n/forms.py
+END

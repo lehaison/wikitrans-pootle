@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/translate/!svn/ver/15578/src/trunk
+END
+pylint-relaxed.ini
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/8964/src/trunk/pylint-relaxed.ini
+END
+pylint-refactor.ini
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/8964/src/trunk/pylint-refactor.ini
+END
+pylint-ignore_files
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/14460/src/trunk/pylint-ignore_files
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/translate/!svn/ver/15570/src/trunk/setup.py
+END
+pylint-hudson.ini
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/14117/src/trunk/pylint-hudson.ini
+END
+run_pylint.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/translate/!svn/ver/8964/src/trunk/run_pylint.sh
+END
+setuppath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/translate/!svn/ver/14336/src/trunk/setuppath
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/translate/!svn/ver/8698/src/trunk/.cvsignore
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/translate/!svn/ver/12352/src/trunk/translate/doc
+END
+gen_api_docs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/12110/src/trunk/translate/doc/gen_api_docs.sh
+END
+epydoc-config.ini
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/12102/src/trunk/translate/doc/epydoc-config.ini
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/12352/src/trunk/translate/doc/index.html
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/5356/src/trunk/translate/doc/README
+END

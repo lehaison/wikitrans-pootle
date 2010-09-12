@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/15541/src/trunk/Pootle/local_apps/pootle_notifications/templates
+END
+viewnotice.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/translate/!svn/ver/12872/src/trunk/Pootle/local_apps/pootle_notifications/templates/viewnotice.html
+END
+notice_body.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/translate/!svn/ver/12868/src/trunk/Pootle/local_apps/pootle_notifications/templates/notice_body.html
+END
+notice_title.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/translate/!svn/ver/12868/src/trunk/Pootle/local_apps/pootle_notifications/templates/notice_title.html
+END
+notices.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/translate/!svn/ver/15541/src/trunk/Pootle/local_apps/pootle_notifications/templates/notices.html
+END
+latest_news_snippet.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/translate/!svn/ver/13453/src/trunk/Pootle/local_apps/pootle_notifications/templates/latest_news_snippet.html
+END

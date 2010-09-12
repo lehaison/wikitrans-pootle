@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/translate/!svn/ver/10327/src/trunk/spelling
+END
+spell.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/10327/src/trunk/spelling/spell.py
+END
+__version__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/__version__.py
+END
+lang.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/4915/src/trunk/spelling/lang.py
+END
+spelld.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/spelld.py
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/4912/src/trunk/spelling/.cvsignore
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/4916/src/trunk/spelling/README
+END
+spellclient
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/spellclient
+END

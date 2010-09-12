@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/8100/src/trunk/spelt/spelt/gui
+END
+dlg_dbload.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/8100/src/trunk/spelt/spelt/gui/dlg_dbload.py
+END
+edit_area.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/8034/src/trunk/spelt/spelt/gui/edit_area.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/7985/src/trunk/spelt/spelt/gui/__init__.py
+END
+combomodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/7999/src/trunk/spelt/spelt/gui/combomodel.py
+END
+gui.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/8031/src/trunk/spelt/spelt/gui/gui.py
+END
+menu.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/8034/src/trunk/spelt/spelt/gui/menu.py
+END
+dlg_source.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/7947/src/trunk/spelt/spelt/gui/dlg_source.py
+END
+wordlist.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/8034/src/trunk/spelt/spelt/gui/wordlist.py
+END

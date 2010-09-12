@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 45
+*.prefs
+*.stats
+*.pending
+.translation_index
+
+END

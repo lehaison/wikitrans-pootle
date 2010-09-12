@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/translate/!svn/ver/10292/src/trunk/wordlist
+END
+letter-frequency.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/3283/src/trunk/wordlist/letter-frequency.py
+END
+new-words
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/3283/src/trunk/wordlist/new-words
+END
+sort-length
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/3283/src/trunk/wordlist/sort-length
+END
+get-words
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/10194/src/trunk/wordlist/get-words
+END
+sum.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/3283/src/trunk/wordlist/sum.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/3283/src/trunk/wordlist/README
+END
+spell_quality.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/10292/src/trunk/wordlist/spell_quality.py
+END

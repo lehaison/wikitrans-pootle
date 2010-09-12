@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/12241/src/trunk/Pootle/pootle/scripts/convert
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/scripts/convert/__init__.py
+END
+lang.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/scripts/convert/lang.py
+END
+lang2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/scripts/convert/lang2po.py
+END
+po2lang.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/scripts/convert/po2lang.py
+END

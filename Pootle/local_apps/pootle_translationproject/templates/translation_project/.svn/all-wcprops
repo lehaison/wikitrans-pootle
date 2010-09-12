@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/translate/!svn/ver/15543/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project
+END
+tp_admin_files.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/translate/!svn/ver/15418/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/tp_admin_files.html
+END
+tp_translate.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/translate/!svn/ver/15543/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/tp_translate.html
+END
+fileop_forms.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/translate/!svn/ver/15460/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/fileop_forms.html
+END
+tp_review.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/translate/!svn/ver/14398/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/tp_review.html
+END
+search.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/translate/!svn/ver/14390/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/search.html
+END
+tp_admin_permissions.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/translate/!svn/ver/15412/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/tp_admin_permissions.html
+END
+tp_overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/translate/!svn/ver/15543/src/trunk/Pootle/local_apps/pootle_translationproject/templates/translation_project/tp_overview.html
+END

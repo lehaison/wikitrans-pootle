@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/14333/src/trunk/translate/storage/versioncontrol
+END
+cvs.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/8184/src/trunk/translate/storage/versioncontrol/cvs.py
+END
+darcs.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/7809/src/trunk/translate/storage/versioncontrol/darcs.py
+END
+bzr.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/8411/src/trunk/translate/storage/versioncontrol/bzr.py
+END
+hg.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/8411/src/trunk/translate/storage/versioncontrol/hg.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/11012/src/trunk/translate/storage/versioncontrol/__init__.py
+END
+git.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/8184/src/trunk/translate/storage/versioncontrol/git.py
+END
+svn.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/14333/src/trunk/translate/storage/versioncontrol/svn.py
+END

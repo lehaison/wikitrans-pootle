@@ -1,0 +1,755 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/15525/src/trunk/translate/convert
+END
+po2web2py.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/14079/src/trunk/translate/convert/po2web2py.py
+END
+po2xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/6857/src/trunk/translate/convert/po2xliff.py
+END
+csv2tbx.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14111/src/trunk/translate/convert/csv2tbx.py
+END
+symb2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/11523/src/trunk/translate/convert/symb2po.py
+END
+po2dtd.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/10994/src/trunk/translate/convert/po2dtd.py
+END
+xliff2odf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/8735/src/trunk/translate/convert/xliff2odf
+END
+test_oo2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/9950/src/trunk/translate/convert/test_oo2po.py
+END
+rc2po
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/rc2po
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/13666/src/trunk/translate/convert/__init__.py
+END
+test_txt2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/6783/src/trunk/translate/convert/test_txt2po.py
+END
+po2ini.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15107/src/trunk/translate/convert/po2ini.py
+END
+xliff2po
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/xliff2po
+END
+oo2po
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/oo2po
+END
+po2php.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15129/src/trunk/translate/convert/po2php.py
+END
+mozfunny2prop.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/14083/src/trunk/translate/convert/mozfunny2prop.py
+END
+po2ini
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2ini
+END
+po2wordfast.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/6858/src/trunk/translate/convert/po2wordfast.py
+END
+po2prop
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2prop
+END
+prop2po
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/prop2po
+END
+test_csv2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/15066/src/trunk/translate/convert/test_csv2po.py
+END
+po2ts
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2ts
+END
+test_po2tiki.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/9421/src/trunk/translate/convert/test_po2tiki.py
+END
+test_tiki2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/9421/src/trunk/translate/convert/test_tiki2po.py
+END
+ts2po
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/ts2po
+END
+po2tiki.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14080/src/trunk/translate/convert/po2tiki.py
+END
+po2php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2php
+END
+tiki2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14081/src/trunk/translate/convert/tiki2po.py
+END
+test_pot2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/11530/src/trunk/translate/convert/test_pot2po.py
+END
+xliff2odf.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/14523/src/trunk/translate/convert/xliff2odf.py
+END
+test_html2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/15453/src/trunk/translate/convert/test_html2po.py
+END
+test_po2html.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/14464/src/trunk/translate/convert/test_po2html.py
+END
+po2rc.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/15125/src/trunk/translate/convert/po2rc.py
+END
+po2html.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14082/src/trunk/translate/convert/po2html.py
+END
+html2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/13806/src/trunk/translate/convert/html2po.py
+END
+test_moz2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/7155/src/trunk/translate/convert/test_moz2po.py
+END
+test_po2moz.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/7155/src/trunk/translate/convert/test_po2moz.py
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/convert/.cvsignore
+END
+test_oo2xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/6812/src/trunk/translate/convert/test_oo2xliff.py
+END
+test_po2ical.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/15102/src/trunk/translate/convert/test_po2ical.py
+END
+po2tmx.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/6857/src/trunk/translate/convert/po2tmx.py
+END
+po2ical.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15105/src/trunk/translate/convert/po2ical.py
+END
+ical2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/13807/src/trunk/translate/convert/ical2po.py
+END
+test_po2dtd.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/12703/src/trunk/translate/convert/test_po2dtd.py
+END
+po2oo.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/14103/src/trunk/translate/convert/po2oo.py
+END
+test_po2ini.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/15145/src/trunk/translate/convert/test_po2ini.py
+END
+po2txt.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/14077/src/trunk/translate/convert/po2txt.py
+END
+po2web2py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/10137/src/trunk/translate/convert/po2web2py
+END
+po2xliff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2xliff
+END
+po2symb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13295/src/trunk/translate/convert/po2symb
+END
+po2ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/7104/src/trunk/translate/convert/po2ts.py
+END
+factory.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/14741/src/trunk/translate/convert/factory.py
+END
+test_po2php.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/15126/src/trunk/translate/convert/test_po2php.py
+END
+test_prop2mozfunny.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/convert/test_prop2mozfunny.py
+END
+ts2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/13806/src/trunk/translate/convert/ts2po.py
+END
+po2txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2txt
+END
+test_accesskey.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/8708/src/trunk/translate/convert/test_accesskey.py
+END
+po2sub.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15139/src/trunk/translate/convert/po2sub.py
+END
+sub2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15144/src/trunk/translate/convert/sub2po.py
+END
+po2csv.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/12308/src/trunk/translate/convert/po2csv.py
+END
+po2csv
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2csv
+END
+oo2xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14109/src/trunk/translate/convert/oo2xliff.py
+END
+test_po2tmx.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/14097/src/trunk/translate/convert/test_po2tmx.py
+END
+test_xliff2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/13813/src/trunk/translate/convert/test_xliff2po.py
+END
+web2py2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/13806/src/trunk/translate/convert/web2py2po.py
+END
+po2tiki
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13444/src/trunk/translate/convert/po2tiki
+END
+tiki2po
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13444/src/trunk/translate/convert/tiki2po
+END
+po2symb.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15363/src/trunk/translate/convert/po2symb.py
+END
+dtd2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/14102/src/trunk/translate/convert/dtd2po.py
+END
+odf2xliff
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/8735/src/trunk/translate/convert/odf2xliff
+END
+po2rc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2rc
+END
+po2html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2html
+END
+html2po
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/html2po
+END
+oo2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/14076/src/trunk/translate/convert/oo2po.py
+END
+po2moz
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2moz
+END
+moz2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/moz2po
+END
+test_po2txt.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/6779/src/trunk/translate/convert/test_po2txt.py
+END
+ini2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/13807/src/trunk/translate/convert/ini2po.py
+END
+oo2xliff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/4497/src/trunk/translate/convert/oo2xliff
+END
+po2tmx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2tmx
+END
+po2ical
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9735/src/trunk/translate/convert/po2ical
+END
+ical2po
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/9735/src/trunk/translate/convert/ical2po
+END
+odfxml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/11111/src/trunk/translate/convert/odfxml
+END
+test_mozfunny2prop.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/13810/src/trunk/translate/convert/test_mozfunny2prop.py
+END
+php2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/13806/src/trunk/translate/convert/php2po.py
+END
+ini2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/ini2po
+END
+test_po2sub.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/15143/src/trunk/translate/convert/test_po2sub.py
+END
+poreplace.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/7155/src/trunk/translate/convert/poreplace.py
+END
+test_po2csv.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/13810/src/trunk/translate/convert/test_po2csv.py
+END
+test_convert.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/14441/src/trunk/translate/convert/test_convert.py
+END
+convert.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15489/src/trunk/translate/convert/convert.py
+END
+php2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/php2po
+END
+po2wordfast
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/6603/src/trunk/translate/convert/po2wordfast
+END
+odf2xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/14524/src/trunk/translate/convert/odf2xliff.py
+END
+rc2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/14488/src/trunk/translate/convert/rc2po.py
+END
+test_po2xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/14095/src/trunk/translate/convert/test_po2xliff.py
+END
+xliff2oo.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14100/src/trunk/translate/convert/xliff2oo.py
+END
+roundtrip-OOo
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/8909/src/trunk/translate/convert/roundtrip-OOo
+END
+xliff2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/13811/src/trunk/translate/convert/xliff2po.py
+END
+test_dtd2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/11461/src/trunk/translate/convert/test_dtd2po.py
+END
+pot2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/pot2po
+END
+test_po2oo.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/7062/src/trunk/translate/convert/test_po2oo.py
+END
+test_po2prop.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/15525/src/trunk/translate/convert/test_po2prop.py
+END
+test_prop2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/15106/src/trunk/translate/convert/test_prop2po.py
+END
+txt2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/13806/src/trunk/translate/convert/txt2po.py
+END
+po2prop.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15525/src/trunk/translate/convert/po2prop.py
+END
+prop2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15058/src/trunk/translate/convert/prop2po.py
+END
+xliff2oo
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/4499/src/trunk/translate/convert/xliff2oo
+END
+web2py2po
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/10137/src/trunk/translate/convert/web2py2po
+END
+csv2tbx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/convert/csv2tbx
+END
+symb2po
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13295/src/trunk/translate/convert/symb2po
+END
+test_po2ts.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/7154/src/trunk/translate/convert/test_po2ts.py
+END
+test_ts2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/7504/src/trunk/translate/convert/test_ts2po.py
+END
+po2oo
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/po2oo
+END
+test_php2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/13442/src/trunk/translate/convert/test_php2po.py
+END
+prop2mozfunny.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/11936/src/trunk/translate/convert/prop2mozfunny.py
+END
+txt2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/txt2po
+END
+accesskey.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/11849/src/trunk/translate/convert/accesskey.py
+END
+csv2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15432/src/trunk/translate/convert/csv2po.py
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/6740/src/trunk/translate/convert/TODO
+END
+po2sub
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/10192/src/trunk/translate/convert/po2sub
+END
+pot2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15196/src/trunk/translate/convert/pot2po.py
+END
+sub2po
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/10192/src/trunk/translate/convert/sub2po
+END
+csv2po
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/9736/src/trunk/translate/convert/csv2po
+END
+po2moz.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15448/src/trunk/translate/convert/po2moz.py
+END
+moz2po.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/15471/src/trunk/translate/convert/moz2po.py
+END

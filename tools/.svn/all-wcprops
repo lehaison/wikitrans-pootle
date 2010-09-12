@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/translate/!svn/ver/14490/src/trunk/tools
+END
+pocompendium
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/6950/src/trunk/tools/pocompendium
+END
+popuretext
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/13622/src/trunk/tools/popuretext
+END
+phase
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/translate/!svn/ver/10194/src/trunk/tools/phase
+END
+poreencode
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/6950/src/trunk/tools/poreencode
+END
+phaselist2goals
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/11110/src/trunk/tools/phaselist2goals
+END
+pocommentclean
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/8858/src/trunk/tools/pocommentclean
+END
+bugdaybugreport
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/10884/src/trunk/tools/bugdaybugreport
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/8103/src/trunk/tools/__init__.py
+END
+junitmsgfmt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/14485/src/trunk/tools/junitmsgfmt
+END
+bugdaysummary
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/3283/src/trunk/tools/bugdaysummary
+END
+pomigrate2
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/11972/src/trunk/tools/pomigrate2
+END
+posplit
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/translate/!svn/ver/4901/src/trunk/tools/posplit
+END
+bugdaytest
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/7573/src/trunk/tools/bugdaytest
+END

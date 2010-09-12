@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/translate/!svn/ver/15557/src/trunk/Pootle/local_apps/pootle_terminology/templates/terminology
+END
+term_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/translate/!svn/ver/15557/src/trunk/Pootle/local_apps/pootle_terminology/templates/terminology/term_edit.html
+END
+manage.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/translate/!svn/ver/15557/src/trunk/Pootle/local_apps/pootle_terminology/templates/terminology/manage.html
+END
+extract.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/translate/!svn/ver/15440/src/trunk/Pootle/local_apps/pootle_terminology/templates/terminology/extract.html
+END

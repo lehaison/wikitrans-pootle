@@ -1,0 +1,178 @@
+9
+
+dir
+15578
+https://translate.svn.sourceforge.net/svnroot/translate/src/trunk/virtaal/devsupport/OSX_Leopard_theme
+https://translate.svn.sourceforge.net/svnroot/translate
+
+
+
+2009-01-16T15:03:49.804055Z
+9714
+friedelwolff
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+54714841-351b-0410-a198-e36a94b762f5
+
+Tabs
+dir
+
+ProgressBar
+dir
+
+Menu-Menubar
+dir
+
+Range
+dir
+
+README
+file
+
+
+
+
+2010-08-19T08:56:25.000000Z
+558da3c32ffe4250840dd301a3e69cac
+2009-01-16T15:03:49.804055Z
+9714
+friedelwolff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+622
+
+Buttons
+dir
+
+Panel
+dir
+
+Frame-Gap
+dir
+
+Combo
+dir
+
+Toolbar
+dir
+
+panel.rc
+file
+
+
+
+
+2010-08-19T08:56:25.000000Z
+378ca3f6a2dd5fc9bcce1bb38a61fb8f
+2009-01-16T15:03:49.804055Z
+9714
+friedelwolff
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3929
+
+Others
+dir
+
+Scrollbars
+dir
+
+Shadows
+dir
+
+Check-Radio
+dir
+
+Lines
+dir
+
+gtkrc
+file
+
+
+
+
+2010-08-19T08:56:25.000000Z
+1ac5b7a4b974c38ce92311dfeb3bb6f8
+2009-01-16T15:03:49.804055Z
+9714
+friedelwolff
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48428
+
+Arrows
+dir
+
+Handles
+dir
+

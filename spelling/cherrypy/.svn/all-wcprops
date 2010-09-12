@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/cherrypy
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/cherrypy/__init__.py
+END
+wsgiserver.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/4914/src/trunk/spelling/cherrypy/wsgiserver.py
+END

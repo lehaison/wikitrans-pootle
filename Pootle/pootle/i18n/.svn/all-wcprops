@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/14937/src/trunk/Pootle/pootle/i18n
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/i18n/__init__.py
+END
+override.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/13735/src/trunk/Pootle/pootle/i18n/override.py
+END
+gettext_live.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/14937/src/trunk/Pootle/pootle/i18n/gettext_live.py
+END
+gettext.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14917/src/trunk/Pootle/pootle/i18n/gettext.py
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/15563/src/trunk/Pootle/local_apps/pootle_store/templates/store
+END
+translate.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/translate/!svn/ver/15563/src/trunk/Pootle/local_apps/pootle_store/templates/store/translate.html
+END
+translate_end.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/translate/!svn/ver/15331/src/trunk/Pootle/local_apps/pootle_store/templates/store/translate_end.html
+END
+translate_table.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/translate/!svn/ver/15511/src/trunk/Pootle/local_apps/pootle_store/templates/store/translate_table.html
+END
