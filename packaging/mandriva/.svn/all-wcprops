@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/13477/src/trunk/packaging/mandriva
+END
+python-translate.spec
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/13391/src/trunk/packaging/mandriva/python-translate.spec
+END
+pootle.spec
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/13477/src/trunk/packaging/mandriva/pootle.spec
+END
+pootle-2.0-optimal-settings.patch
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/translate/!svn/ver/13391/src/trunk/packaging/mandriva/pootle-2.0-optimal-settings.patch
+END

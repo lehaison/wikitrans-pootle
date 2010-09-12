@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags
+END
+djblets_images.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_images.py
+END
+djblets_forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_forms.py
+END
+djblets_email.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_email.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/__init__.py
+END
+djblets_deco.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_deco.py
+END
+djblets_js.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_js.py
+END
+djblets_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/templatetags/djblets_utils.py
+END

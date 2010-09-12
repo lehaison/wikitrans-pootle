@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util
+END
+dbevolution.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/dbevolution.py
+END
+misc.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/misc.py
+END
+testing.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/testing.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/__init__.py
+END
+http.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/http.py
+END
+dates.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/dates.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/tests.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/db.py
+END
+decorators.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/decorators.py
+END
+context_processors.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/context_processors.py
+END
+fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/fields.py
+END
+rooturl.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/11587/src/trunk/Pootle/external_apps/djblets/util/rooturl.py
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15578/src/trunk/translate/storage/placeables
+END
+lisa.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/14105/src/trunk/translate/storage/placeables/lisa.py
+END
+terminology.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/11198/src/trunk/translate/storage/placeables/terminology.py
+END
+xliff.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/12018/src/trunk/translate/storage/placeables/xliff.py
+END
+test_base.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/14234/src/trunk/translate/storage/placeables/test_base.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/14293/src/trunk/translate/storage/placeables/base.py
+END
+parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/11724/src/trunk/translate/storage/placeables/parse.py
+END
+strelem.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/14232/src/trunk/translate/storage/placeables/strelem.py
+END
+test_general.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/15578/src/trunk/translate/storage/placeables/test_general.py
+END
+general.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/13859/src/trunk/translate/storage/placeables/general.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/12035/src/trunk/translate/storage/placeables/__init__.py
+END
+interfaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/14261/src/trunk/translate/storage/placeables/interfaces.py
+END
+test_lisa.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/12009/src/trunk/translate/storage/placeables/test_lisa.py
+END
+test_terminology.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/11902/src/trunk/translate/storage/placeables/test_terminology.py
+END

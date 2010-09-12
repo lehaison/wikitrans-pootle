@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/15300/src/trunk/virtaal/virtaal/plugins/tm
+END
+tmview.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/14171/src/trunk/virtaal/virtaal/plugins/tm/tmview.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/14316/src/trunk/virtaal/virtaal/plugins/tm/__init__.py
+END
+tmcontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/14304/src/trunk/virtaal/virtaal/plugins/tm/tmcontroller.py
+END
+tmwidgets.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/14728/src/trunk/virtaal/virtaal/plugins/tm/tmwidgets.py
+END

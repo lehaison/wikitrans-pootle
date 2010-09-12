@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/translate/!svn/ver/15577/src/trunk/Pootle
+END
+ChangeLog.pre-0.8
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/3283/src/trunk/Pootle/ChangeLog.pre-0.8
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/11024/src/trunk/Pootle/manage.py
+END
+strings.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/15253/src/trunk/Pootle/strings.py
+END
+syspath_override.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/12436/src/trunk/Pootle/syspath_override.py
+END
+updatetm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/13093/src/trunk/Pootle/updatetm
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/8683/src/trunk/Pootle/ChangeLog
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/translate/!svn/ver/15166/src/trunk/Pootle/setup.py
+END
+PootleServer
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/12269/src/trunk/Pootle/PootleServer
+END
+import_pootle_prefs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/13093/src/trunk/Pootle/import_pootle_prefs
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/translate/!svn/ver/15118/src/trunk/Pootle/README
+END
+CREDITS
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/11684/src/trunk/Pootle/CREDITS
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/13363/src/trunk/Pootle/wsgi.py
+END
+localsettings.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/15506/src/trunk/Pootle/localsettings.py
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/translate/!svn/ver/13474/src/trunk/Pootle/TODO
+END
+alerts.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/15191/src/trunk/Pootle/alerts.js
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/translate/!svn/ver/15118/src/trunk/Pootle/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/translate/!svn/ver/3283/src/trunk/Pootle/COPYING
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/13964/src/trunk/Pootle/MANIFEST.in
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/8697/src/trunk/Pootle/.cvsignore
+END

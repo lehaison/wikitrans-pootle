@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/translate/!svn/ver/13640/src/trunk/packaging
+END
+spelt.spec
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/8099/src/trunk/packaging/spelt.spec
+END
+virtaal-glade-location.patch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/7130/src/trunk/packaging/virtaal-glade-location.patch
+END
+pootle-1.3.0-remove-syspath.patch
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/13361/src/trunk/packaging/pootle-1.3.0-remove-syspath.patch
+END
+pootle-initscript
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/10171/src/trunk/packaging/pootle-initscript
+END
+jToolkit.spec
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/7498/src/trunk/packaging/jToolkit.spec
+END
+translate-poterminology-stoplist.diff
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/8686/src/trunk/packaging/translate-poterminology-stoplist.diff
+END
+pootle-1.3.0-fedora-settings.patch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/13361/src/trunk/packaging/pootle-1.3.0-fedora-settings.patch
+END
+pootle.spec
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/13640/src/trunk/packaging/pootle.spec
+END
+virtaal.spec
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/9496/src/trunk/packaging/virtaal.spec
+END
+python-Levenshtein.spec
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/8817/src/trunk/packaging/python-Levenshtein.spec
+END
+corpuscatcher.spec
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/7792/src/trunk/packaging/corpuscatcher.spec
+END
+run_pootle.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/10172/src/trunk/packaging/run_pootle.sh
+END
+pootle-logrotate
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/8210/src/trunk/packaging/pootle-logrotate
+END
+pootle-1.3.0-file-locations.patch
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/13361/src/trunk/packaging/pootle-1.3.0-file-locations.patch
+END
+pootle-sysconfig
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/10165/src/trunk/packaging/pootle-sysconfig
+END
+pootle-1.3.0-r12812-r12819-initdb.patch
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/translate/!svn/ver/13361/src/trunk/packaging/pootle-1.3.0-r12812-r12819-initdb.patch
+END
+pYsearch.spec
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/7792/src/trunk/packaging/pYsearch.spec
+END
+translate-toolkit-1.1.0-ini2po.patch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/translate/!svn/ver/6987/src/trunk/packaging/translate-toolkit-1.1.0-ini2po.patch
+END
+pylib.spec
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/8848/src/trunk/packaging/pylib.spec
+END
+translate-toolkit.spec
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/8687/src/trunk/packaging/translate-toolkit.spec
+END

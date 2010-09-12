@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/15194/src/trunk/Pootle/external_apps/profiles
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/12179/src/trunk/Pootle/external_apps/profiles/LICENSE.txt
+END
+INSTALL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/12179/src/trunk/Pootle/external_apps/profiles/INSTALL.txt
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/11423/src/trunk/Pootle/external_apps/profiles/views.py
+END
+CHANGELOG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/12179/src/trunk/Pootle/external_apps/profiles/CHANGELOG.txt
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/11425/src/trunk/Pootle/external_apps/profiles/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/11423/src/trunk/Pootle/external_apps/profiles/utils.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/12179/src/trunk/Pootle/external_apps/profiles/README.txt
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/15194/src/trunk/Pootle/external_apps/profiles/urls.py
+END

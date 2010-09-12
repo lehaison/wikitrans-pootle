@@ -1,0 +1,28 @@
+{% extends "user_profile_base.html" %}
+{% load i18n baseurl %}
+
+{% load uni_form_tags %}
+
+{% block title %}
+  {{ block.super }} » {% trans "Articles" %} » {% trans "Request" %}
+{% endblock %}
+
+{% block bodyclass %}request{% endblock %}
+
+{% block breadcrumb_content %}
+  {{ block.super }} » {% trans "Articles" %} » {% trans "Request" %}
+{% endblock %}
+
+{% block content %}
+<h1>{% block list-title %}{% trans "Request Translation" %}{% endblock %}</h1>
+<div id="request_block">
+  <h2>{{ title }}</h2>
+  <form class="uniForm" method="POST" action="">
+	<fieldset class="inlineLabels">
+	  {{ request_form|as_uni_form }}
+	  {% include "uni_form/uni_form.html" %}
+      <input type="submit" />
+	</fieldset>
+  </form>
+</div>
+{% endblock %}

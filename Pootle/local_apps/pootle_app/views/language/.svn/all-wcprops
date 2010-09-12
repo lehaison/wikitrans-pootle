@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/15417/src/trunk/Pootle/local_apps/pootle_app/views/language
+END
+view.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/translate/!svn/ver/14214/src/trunk/Pootle/local_apps/pootle_app/views/language/view.py
+END
+navbar_dict.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/translate/!svn/ver/14214/src/trunk/Pootle/local_apps/pootle_app/views/language/navbar_dict.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/translate/!svn/ver/10920/src/trunk/Pootle/local_apps/pootle_app/views/language/__init__.py
+END
+dispatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/translate/!svn/ver/14213/src/trunk/Pootle/local_apps/pootle_app/views/language/dispatch.py
+END
+item_dict.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/translate/!svn/ver/15417/src/trunk/Pootle/local_apps/pootle_app/views/language/item_dict.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/translate/!svn/ver/14210/src/trunk/Pootle/local_apps/pootle_app/views/language/urls.py
+END

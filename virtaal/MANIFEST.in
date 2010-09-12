@@ -1,0 +1,59 @@
+# informational filesglobal-include README
+global-include TODO
+global-include ChangeLog
+global-include COPYING
+global-include LICENSE
+global-include *.txt
+include share/virtaal/virtaal_logo.png share/virtaal/tutorial.pot share/virtaal/virtaal.glade share/virtaal/welcome_screen_banner_rtl.png share/virtaal/virtaal_logo.svg share/virtaal/welcome_screen_banner.png
+include share/virtaal/autocorr/acor_sl-SI.dat share/virtaal/autocorr/acor_ja-JP.dat share/virtaal/autocorr/acor_sk-SK.dat share/virtaal/autocorr/acor_fr-FR.dat share/virtaal/autocorr/acor_ru-RU.dat share/virtaal/autocorr/acor_tr-TR.dat share/virtaal/autocorr/acor_pt-PT.dat share/virtaal/autocorr/acor_de-DE.dat share/virtaal/autocorr/acor_cs-CZ.dat share/virtaal/autocorr/acor_nl-NL.dat share/virtaal/autocorr/acor_fa-IR.dat share/virtaal/autocorr/acor_pl-PL.dat share/virtaal/autocorr/acor_zh-TW.dat share/virtaal/autocorr/acor_vi-VN.dat share/virtaal/autocorr/acor_mn-MN.dat share/virtaal/autocorr/LICENSE share/virtaal/autocorr/acor_uk-UA.dat share/virtaal/autocorr/README share/virtaal/autocorr/acor_bg-BG.dat share/virtaal/autocorr/acor_zh-CN.dat share/virtaal/autocorr/acor_hu-HU.dat share/virtaal/autocorr/acor_hr-HR.dat share/virtaal/autocorr/acor_en-US.dat share/virtaal/autocorr/acor_sv-SE.dat share/virtaal/autocorr/acor_en-ZA.dat share/virtaal/autocorr/acor_af-ZA.dat share/virtaal/autocorr/acor_da-DK.dat share/virtaal/autocorr/acor_pt-BR.dat share/virtaal/autocorr/acor_ko-KR.dat share/virtaal/autocorr/acor_es-ES.dat share/virtaal/autocorr/acor_it-IT.dat share/virtaal/autocorr/acor_fi-FI.dat share/virtaal/autocorr/acor_en-GB.dat share/virtaal/autocorr/acor_lb-LU.dat share/virtaal/autocorr/acor_lt.dat
+include share/icons/virtaal.png share/icons/virtaal.ico share/icons/x-translation.ico
+include mo/es/virtaal.mo
+include mo/eu/virtaal.mo
+include mo/pa/virtaal.mo
+include mo/en_ZA/virtaal.mo
+include mo/fi/virtaal.mo
+include mo/son/virtaal.mo
+include mo/be/virtaal.mo
+include mo/ru/virtaal.mo
+include mo/ast/virtaal.mo
+include mo/pl/virtaal.mo
+include mo/nso/virtaal.mo
+include mo/zh_TW/virtaal.mo
+include mo/he/virtaal.mo
+include mo/sw/virtaal.mo
+include mo/ca@valencia/virtaal.mo
+include mo/ja/virtaal.mo
+include mo/th/virtaal.mo
+include mo/ko/virtaal.mo
+include mo/gl/virtaal.mo
+include mo/fr/virtaal.mo
+include mo/en_GB/virtaal.mo
+include mo/is/virtaal.mo
+include mo/vi/virtaal.mo
+include mo/lt/virtaal.mo
+include mo/bg/virtaal.mo
+include mo/ne/virtaal.mo
+include mo/bn_IN/virtaal.mo
+include mo/ak/virtaal.mo
+include mo/uk/virtaal.mo
+include mo/zu/virtaal.mo
+include mo/ca/virtaal.mo
+include mo/ar/virtaal.mo
+include mo/pt_BR/virtaal.mo
+include mo/lg/virtaal.mo
+include mo/de/virtaal.mo
+include mo/sv/virtaal.mo
+include mo/nl/virtaal.mo
+include mo/af/virtaal.mo
+include mo/it/virtaal.mo
+include mo/tr/virtaal.mo
+include mo/st/virtaal.mo
+include share/icons/hicolor/16x16/mimetypes/x-translation.png
+include share/icons/hicolor/24x24/mimetypes/x-translation.png
+include share/icons/hicolor/32x32/mimetypes/x-translation.png
+include share/icons/hicolor/48x48/mimetypes/x-translation.png
+include share/icons/hicolor/64x64/mimetypes/x-translation.png
+include share/icons/hicolor/128x128/mimetypes/x-translation.png
+include share/icons/hicolor/scalable/mimetypes/x-translation.svg
+include LICENSE maketranslations devsupport/virtaal_innosetup.bmp
+graft po

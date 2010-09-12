@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/translate/!svn/ver/15575/src/trunk/Pootle/pootle
+END
+PootleServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14042/src/trunk/Pootle/pootle/PootleServer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/15550/src/trunk/Pootle/pootle/settings.py
+END
+__version__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/15575/src/trunk/Pootle/pootle/__version__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/15495/src/trunk/Pootle/pootle/tests.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/15166/src/trunk/Pootle/pootle/urls.py
+END
+depcheck.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/15442/src/trunk/Pootle/pootle/depcheck.py
+END
+install_dirs.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/12270/src/trunk/Pootle/pootle/install_dirs.py
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/translate/!svn/ver/10222/src/trunk/spelt/spelt/models
+END
+test_source.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/10222/src/trunk/spelt/spelt/models/test_source.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/7526/src/trunk/spelt/spelt/models/__init__.py
+END
+test_pos.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/test_pos.py
+END
+source.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/source.py
+END
+pos.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/pos.py
+END
+test_surface_form.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/test_surface_form.py
+END
+surface_form.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/surface_form.py
+END
+test_user.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/test_user.py
+END
+user.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/user.py
+END
+test_xml_model.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/10222/src/trunk/spelt/spelt/models/test_xml_model.py
+END
+xml_model.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/10220/src/trunk/spelt/spelt/models/xml_model.py
+END
+test_root.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/10222/src/trunk/spelt/spelt/models/test_root.py
+END
+root.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/root.py
+END
+test_langdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/test_langdb.py
+END
+id_manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/8032/src/trunk/spelt/spelt/models/id_manager.py
+END
+model_factory.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/7815/src/trunk/spelt/spelt/models/model_factory.py
+END
+langdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/10221/src/trunk/spelt/spelt/models/langdb.py
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/translate/!svn/ver/15300/src/trunk/virtaal/virtaal/plugins
+END
+migration.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/12940/src/trunk/virtaal/virtaal/plugins/migration.py
+END
+_helloworld.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/plugins/_helloworld.py
+END
+autocorrector.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/plugins/autocorrector.py
+END
+autocompletor.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/14300/src/trunk/virtaal/virtaal/plugins/autocompletor.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/plugins/__init__.py
+END
+_python_console.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/11736/src/trunk/virtaal/virtaal/plugins/_python_console.py
+END
+spellchecker.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/14855/src/trunk/virtaal/virtaal/plugins/spellchecker.py
+END

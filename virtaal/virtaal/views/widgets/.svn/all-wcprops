@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14903/src/trunk/virtaal/virtaal/views/widgets
+END
+aboutdialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/14434/src/trunk/virtaal/virtaal/views/widgets/aboutdialog.py
+END
+welcomescreen.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/14350/src/trunk/virtaal/virtaal/views/widgets/welcomescreen.py
+END
+test_textbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/translate/!svn/ver/10753/src/trunk/virtaal/virtaal/views/widgets/test_textbox.py
+END
+storetreemodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/14726/src/trunk/virtaal/virtaal/views/widgets/storetreemodel.py
+END
+textbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/14667/src/trunk/virtaal/virtaal/views/widgets/textbox.py
+END
+test_selectdialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/10769/src/trunk/virtaal/virtaal/views/widgets/test_selectdialog.py
+END
+selectdialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/translate/!svn/ver/13130/src/trunk/virtaal/virtaal/views/widgets/selectdialog.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/views/widgets/__init__.py
+END
+langselectdialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/translate/!svn/ver/11863/src/trunk/virtaal/virtaal/views/widgets/langselectdialog.py
+END
+popupwidgetbutton.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/14892/src/trunk/virtaal/virtaal/views/widgets/popupwidgetbutton.py
+END
+label_expander.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/views/widgets/label_expander.py
+END
+storetreeview.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/14780/src/trunk/virtaal/virtaal/views/widgets/storetreeview.py
+END
+test_selectview.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/10758/src/trunk/virtaal/virtaal/views/widgets/test_selectview.py
+END
+selectview.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/14463/src/trunk/virtaal/virtaal/views/widgets/selectview.py
+END
+langadddialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/translate/!svn/ver/11864/src/trunk/virtaal/virtaal/views/widgets/langadddialog.py
+END
+cellrendererwidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/translate/!svn/ver/14648/src/trunk/virtaal/virtaal/views/widgets/cellrendererwidget.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/views/widgets/util.py
+END
+listnav.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/14903/src/trunk/virtaal/virtaal/views/widgets/listnav.py
+END
+storecellrenderer.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/translate/!svn/ver/14731/src/trunk/virtaal/virtaal/views/widgets/storecellrenderer.py
+END
+popupmenubutton.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/14830/src/trunk/virtaal/virtaal/views/widgets/popupmenubutton.py
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/translate/!svn/ver/14490/src/trunk/tools/mozilla
+END
+moz-l10n-builder
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/8845/src/trunk/tools/mozilla/moz-l10n-builder
+END
+mozzy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/translate/!svn/ver/14490/src/trunk/tools/mozilla/mozzy.sh
+END
+build_tb3_langs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/11926/src/trunk/tools/mozilla/build_tb3_langs.sh
+END
+get_moz_enUS.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/13925/src/trunk/tools/mozilla/get_moz_enUS.py
+END
+buildxpi.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/12359/src/trunk/tools/mozilla/buildxpi.py
+END
+build_ff3.1_langs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/10861/src/trunk/tools/mozilla/build_ff3.1_langs.sh
+END
+moz_l10n_builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/8845/src/trunk/tools/mozilla/moz_l10n_builder.py
+END
+mozilla-l10n.patch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/8845/src/trunk/tools/mozilla/mozilla-l10n.patch
+END
+mozcronbuild.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/8886/src/trunk/tools/mozilla/mozcronbuild.py
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/translate/!svn/ver/15578/src/trunk/translate
+END
+ChangeLog.pre-0.9
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/ChangeLog.pre-0.9
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/translate/!svn/ver/15567/src/trunk/translate/__init__.py
+END
+i18n.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/14166/src/trunk/translate/i18n.py
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/12150/src/trunk/translate/ChangeLog
+END
+__version__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/15555/src/trunk/translate/__version__.py
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/3283/src/trunk/translate/COPYING
+END
+CREDITS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/13666/src/trunk/translate/CREDITS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/15317/src/trunk/translate/README
+END
+TESTING
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/8045/src/trunk/translate/TESTING
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/8697/src/trunk/translate/.cvsignore
+END

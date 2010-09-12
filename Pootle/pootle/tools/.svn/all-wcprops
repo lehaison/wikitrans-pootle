@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/15347/src/trunk/Pootle/pootle/tools
+END
+build_pootle_db.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/tools/build_pootle_db.sh
+END
+benchmark.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/translate/!svn/ver/12290/src/trunk/Pootle/pootle/tools/benchmark.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/tools/__init__.py
+END
+createpootlepot
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13187/src/trunk/Pootle/pootle/tools/createpootlepot
+END
+test_localisation.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/12532/src/trunk/Pootle/pootle/tools/test_localisation.sh
+END
+updatetm.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/11643/src/trunk/Pootle/pootle/tools/updatetm.py
+END
+conflict2suggest.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/10853/src/trunk/Pootle/pootle/tools/conflict2suggest.py
+END
+import_old_prefs.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/15347/src/trunk/Pootle/pootle/tools/import_old_prefs.py
+END

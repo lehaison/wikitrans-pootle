@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/translate/!svn/ver/7812/src/trunk/spelt/spelt/common
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/7811/src/trunk/spelt/spelt/common/__init__.py
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/translate/!svn/ver/7566/src/trunk/spelt/spelt/common/exceptions.py
+END
+singleton.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/7812/src/trunk/spelt/spelt/common/singleton.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/7734/src/trunk/spelt/spelt/common/config.py
+END

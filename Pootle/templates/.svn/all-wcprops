@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/translate/!svn/ver/15540/src/trunk/Pootle/templates
+END
+language_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/language_base.html
+END
+tp_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14616/src/trunk/Pootle/templates/tp_base.html
+END
+user_profile_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/13273/src/trunk/Pootle/templates/user_profile_menu.html
+END
+tp_base_admin.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/15540/src/trunk/Pootle/templates/tp_base_admin.html
+END
+docs.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/docs.html
+END
+user_profile_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/user_profile_base.html
+END
+project_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/14897/src/trunk/Pootle/templates/project_menu.html
+END
+admin_profile_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/15167/src/trunk/Pootle/templates/admin_profile_menu.html
+END
+tp_base_extended.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/translate/!svn/ver/12656/src/trunk/Pootle/templates/tp_base_extended.html
+END
+project_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/project_base.html
+END
+admin_profile_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/15540/src/trunk/Pootle/templates/admin_profile_base.html
+END
+captcha.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/15512/src/trunk/Pootle/templates/captcha.html
+END
+500.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/500.html
+END
+tp_base_terminology.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/15114/src/trunk/Pootle/templates/tp_base_terminology.html
+END
+403.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/403.html
+END
+language_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/translate/!svn/ver/13430/src/trunk/Pootle/templates/language_menu.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/13418/src/trunk/Pootle/templates/404.html
+END
+tp_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/translate/!svn/ver/14399/src/trunk/Pootle/templates/tp_menu.html
+END
+user_profile_base_extended.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/12792/src/trunk/Pootle/templates/user_profile_base_extended.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/translate/!svn/ver/15282/src/trunk/Pootle/templates/base.html
+END

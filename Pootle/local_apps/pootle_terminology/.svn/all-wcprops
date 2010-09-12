@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/15557/src/trunk/Pootle/local_apps/pootle_terminology
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/translate/!svn/ver/15554/src/trunk/Pootle/local_apps/pootle_terminology/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/13740/src/trunk/Pootle/local_apps/pootle_terminology/__init__.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/13775/src/trunk/Pootle/local_apps/pootle_terminology/urls.py
+END

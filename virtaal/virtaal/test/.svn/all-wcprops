@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test
+END
+test_storecursor.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_storecursor.py
+END
+test_storemodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_storemodel.py
+END
+test_scaffolding.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_scaffolding.py
+END
+test_storecontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_storecontroller.py
+END
+test_unitcontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_unitcontroller.py
+END
+test_maincontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_maincontroller.py
+END
+test_modecontroller.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/translate/!svn/ver/13551/src/trunk/virtaal/virtaal/test/test_modecontroller.py
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/translate/!svn/ver/15339/src/trunk/Pootle/local_apps/pootle_autonotices
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/translate/!svn/ver/14900/src/trunk/Pootle/local_apps/pootle_autonotices/__init__.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/translate/!svn/ver/15339/src/trunk/Pootle/local_apps/pootle_autonotices/signals.py
+END

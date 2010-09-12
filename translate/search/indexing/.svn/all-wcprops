@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/translate/!svn/ver/15537/src/trunk/translate/search/indexing
+END
+XapianIndexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/15330/src/trunk/translate/search/indexing/XapianIndexer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/translate/!svn/ver/12562/src/trunk/translate/search/indexing/__init__.py
+END
+test_indexers.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/translate/!svn/ver/15431/src/trunk/translate/search/indexing/test_indexers.py
+END
+PyLuceneIndexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/15537/src/trunk/translate/search/indexing/PyLuceneIndexer.py
+END
+PyLuceneIndexer1.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/translate/!svn/ver/8505/src/trunk/translate/search/indexing/PyLuceneIndexer1.py
+END
+CommonIndexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/translate/!svn/ver/8507/src/trunk/translate/search/indexing/CommonIndexer.py
+END

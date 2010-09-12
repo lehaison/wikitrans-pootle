@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/translate/!svn/ver/8967/src/trunk/corpuscatcher
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/translate/!svn/ver/7783/src/trunk/corpuscatcher/LICENSE
+END
+clean_corpus.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/translate/!svn/ver/7784/src/trunk/corpuscatcher/clean_corpus.py
+END
+h2t.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/8035/src/trunk/corpuscatcher/h2t.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/translate/!svn/ver/8920/src/trunk/corpuscatcher/__init__.py
+END
+corpus_collect.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/translate/!svn/ver/8967/src/trunk/corpuscatcher/corpus_collect.py
+END
+__version__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/translate/!svn/ver/7783/src/trunk/corpuscatcher/__version__.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/translate/!svn/ver/7783/src/trunk/corpuscatcher/README
+END
