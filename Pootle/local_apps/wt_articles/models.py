@@ -16,11 +16,7 @@ from pootle_language.models import Language
 from pootle_translationproject.models import TranslationProject
 # from pootle_store.filetypes import filetype_choices, factory_classes, is_monolingual
 
-<<<<<<< HEAD
-# from BeautifulSoup import BeautifulSoup
-=======
 from BeautifulSoup import BeautifulSoup
->>>>>>> upstream/master
 from datetime import datetime
 import polib
 
@@ -149,27 +145,17 @@ class SourceArticle(models.Model):
         
         # Export the title
         poTitle = polib.POEntry(
-<<<<<<< HEAD
-            msgid = "Title",
-            msgstr = self.title
-=======
             tcomment = "Title",
             msgid = self.title
->>>>>>> upstream/master
         )
         po.append(poTitle)
         
         # Export the sentences
         for sentence in self.sourcesentence_set.order_by('segment_id'):
             poEntry = polib.POEntry(
-<<<<<<< HEAD
-                msgid = "%d" % sentence.segment_id,
-                msgstr = sentence.text
-=======
                 occurrences = [('segment_id', sentence.segment_id)],
                 tcomment = "sentence",  # TODO: Check to see if it's a sentence or a header
                 msgid = sentence.text
->>>>>>> upstream/master
             )
             
             po.append(poEntry)
@@ -215,7 +201,7 @@ class SourceArticle(models.Model):
         """
         return len(Project.objects.filter(code = self.get_project_code())) > 0
     
-    def create_pootle_project(self):
+    def source_to_pootle_project(self):
         """
         Constructs a Pootle project from the article, if a project doesn't already exist.
         """
@@ -276,6 +262,15 @@ class SourceArticle(models.Model):
         Gets the url corresponding to the Pootle project.
         """
         url = '/projects/%s/' % self.get_project_code()
+        
+        return iri_to_uri(url)
+    
+    def get_create_pootle_project_url(self):
+        """
+        Gets the url for the page which creates a new Pootle project out of a source article
+        """
+        
+        url = '/articles/source/export/project/%s' % self.id;
         
         return iri_to_uri(url)
 

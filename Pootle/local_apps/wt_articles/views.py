@@ -376,11 +376,13 @@ def _source_to_pootle_project(article):
     return project
     
 @login_required
-def source_to_pootle_project(request, aid, template_name="gimme.html"):
+def source_to_pootle_project(request, aid, template_name="wt_articles/source_export_project.html"):
     """
     Converts an article to a Pootle project by id (aid).
     """
     # Fetch the article
+    no_match = False
+    
     sa_set = SourceArticle.objects.filter(id=aid)
     if len(sa_set) < 1:
         no_match = True
