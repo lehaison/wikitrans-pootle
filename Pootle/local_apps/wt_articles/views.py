@@ -338,6 +338,8 @@ def source_to_po(request, aid, template_name="wt_articles/source_export_po.html"
     """
     aid in this context is the source article id
     """
+    from django.utils.encoding import smart_str
+    
     sa_set = SourceArticle.objects.filter(id=aid)
     if len(sa_set) < 1:
         no_match = True
@@ -349,7 +351,7 @@ def source_to_po(request, aid, template_name="wt_articles/source_export_po.html"
     po = article.sentences_to_po()
     
     return render_to_response(template_name, {
-        "po": po,
+        "po": smart_str( po ),
         "title": article.title
     }, context_instance=RequestContext(request))
 
