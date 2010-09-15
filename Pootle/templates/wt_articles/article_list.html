@@ -39,12 +39,12 @@
 					    {% if translatable %}
 					    <td><a href="{{ article.link }}">{{ article.target }}</a></td>
 					    {% endif %}
-					    <td><a href="{{ article.get_export_po_url }}">po</a></td>
+					    <td><a href="{{ article.get_export_po_url }}">{% trans "Generate .po" %}</a></td>
 					    <td>
 						{% if article.pootle_project_exists %}
 						<a href="{{ article.get_pootle_project_url }}">{{ article.get_project_name }}</a>
 						{% else %}
-						(Create)
+						<a href="{{ article.get_create_pootle_project_url }}">{% trans "Create new Project" %}</a>
 						{% endif %}
 					    </td>
 		    </tr>

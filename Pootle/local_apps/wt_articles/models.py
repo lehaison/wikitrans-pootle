@@ -201,7 +201,7 @@ class SourceArticle(models.Model):
         """
         return len(Project.objects.filter(code = self.get_project_code())) > 0
     
-    def create_pootle_project(self):
+    def source_to_pootle_project(self):
         """
         Constructs a Pootle project from the article, if a project doesn't already exist.
         """
@@ -262,6 +262,15 @@ class SourceArticle(models.Model):
         Gets the url corresponding to the Pootle project.
         """
         url = '/projects/%s/' % self.get_project_code()
+        
+        return iri_to_uri(url)
+    
+    def get_create_pootle_project_url(self):
+        """
+        Gets the url for the page which creates a new Pootle project out of a source article
+        """
+        
+        url = '/articles/source/export/project/%s' % self.id;
         
         return iri_to_uri(url)
 
