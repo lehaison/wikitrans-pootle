@@ -16,7 +16,11 @@ from pootle_language.models import Language
 from pootle_translationproject.models import TranslationProject
 # from pootle_store.filetypes import filetype_choices, factory_classes, is_monolingual
 
+<<<<<<< HEAD
 # from BeautifulSoup import BeautifulSoup
+=======
+from BeautifulSoup import BeautifulSoup
+>>>>>>> upstream/master
 from datetime import datetime
 import polib
 
@@ -145,16 +149,27 @@ class SourceArticle(models.Model):
         
         # Export the title
         poTitle = polib.POEntry(
+<<<<<<< HEAD
             msgid = "Title",
             msgstr = self.title
+=======
+            tcomment = "Title",
+            msgid = self.title
+>>>>>>> upstream/master
         )
         po.append(poTitle)
         
         # Export the sentences
         for sentence in self.sourcesentence_set.order_by('segment_id'):
             poEntry = polib.POEntry(
+<<<<<<< HEAD
                 msgid = "%d" % sentence.segment_id,
                 msgstr = sentence.text
+=======
+                occurrences = [('segment_id', sentence.segment_id)],
+                tcomment = "sentence",  # TODO: Check to see if it's a sentence or a header
+                msgid = sentence.text
+>>>>>>> upstream/master
             )
             
             po.append(poEntry)
