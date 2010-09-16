@@ -50,11 +50,11 @@ sudo apt-get install libyaml-0-1
 sudo pip install -I pyyaml
 sudo pip install http://dist.repoze.org/PIL-1.1.6.tar.gz
 
-sudo pip install -I -r requirements.txt
-
 sudo apt-get install libxml2-dev
 sudo apt-get install libxslt-dev
 sudo pip install lxml
+
+sudo pip install -I -r requirements.txt
 
 # Configure nltk
 python nltk_config.py
@@ -69,5 +69,8 @@ cd $GIT_LOCAL_DIRECTORY
 # Build Pootle
 echo "Building and installing Pootle..."
 sudo python setup.py build install
+
+echo "You will also need to download Google Protocol Buffers to work with MT Server Land and XML-RPC."
+echo "http://code.google.com/p/protobuf/"
 echo "Done."
 
