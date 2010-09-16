@@ -19,6 +19,7 @@ from pootle_translationproject.models import TranslationProject
 from BeautifulSoup import BeautifulSoup
 from datetime import datetime
 import polib
+import logging
 
 # Generic relation to mturk_manager
 from django.contrib.contenttypes import generic
@@ -201,10 +202,12 @@ class SourceArticle(models.Model):
         """
         return len(Project.objects.filter(code = self.get_project_code())) > 0
     
-    def source_to_pootle_project(self):
+    def notusedsource_to_pootle_project(self):
         """
         Constructs a Pootle project from the article, if a project doesn't already exist.
         """
+
+        logging.debug ( "source_to_pootle_project" )
         from pootle_app.models.signals import post_template_update
         
         if self.pootle_project_exists():
@@ -215,9 +218,9 @@ class SourceArticle(models.Model):
         
         if len(sl_set) < 1:
             raise Exception("Language code %s does not exist!" % self.language)
-    
-        source_language = sl_set[0]
         
+        source_language = sl_set[0]
+        logging.debug ( "source language" +  source_language )
         # Construct the project
         project = Project()
         project.fullname = self.get_project_name()
@@ -226,7 +229,7 @@ class SourceArticle(models.Model):
         
         # Save the project
         project.save()
-        
+        logging.debug ( "project saved")
         # Export the article to .po and store in the templates "translation project". This will be used to generate translation requests for other languages.
         templatesProject = project.get_template_translationproject()
         po = self.sentences_to_po()
