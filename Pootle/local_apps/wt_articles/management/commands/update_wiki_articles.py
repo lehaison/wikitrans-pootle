@@ -11,20 +11,22 @@ class Command(NoArgsCommand):
     requires_model_validation = False
 
     def handle_noargs(self, **options):
-        articles_of_interest = ArticleOfInterest.objects.all()
-        for article in articles_of_interest:
+        articles_of_interest = ArticleOfInterest.objects.all()        
+        for article in articles_of_interest:            
             #article_dict = query_text_raw(article.title,
-                                               #language=article.title_language)
+            #                                   language=article.title_language)            
             article_dict = query_text_rendered(article.title,
-                                               language=article.title_language)
+                                               language=article.title_language)            
             # don't import articles we already have
             if SourceArticle.objects.filter(doc_id__exact='%s' % article_dict['revid'],
                                             language=article.title_language):
+                print article.title
+                source_article.delete()
                 continue
             try:
                 source_article = SourceArticle(title=article.title,
                                                language=article.title_language,
-                                               # source_text = article_dict['text'],
+                                               #source_text=article_dict['text'],
                                                source_text=article_dict['html'],
                                                timestamp=datetime.now(),
                                                doc_id=article_dict['revid'])
@@ -38,7 +40,7 @@ class Command(NoArgsCommand):
                 print type(e)
                 print e.args
                 try:
-                    source_article.delete()
-                    tr.delete()
+                   source_article.delete()
+                   tr.delete()
                 except:
                     pass

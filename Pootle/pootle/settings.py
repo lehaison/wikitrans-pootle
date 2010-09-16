@@ -155,6 +155,7 @@ INSTALLED_APPS = (
     'wt_languages',
     'wt_articles',
     'wt_managing',
+    'mturk_manager',
 )
 
 AUTH_PROFILE_MODULE = "pootle_profile.PootleProfile"

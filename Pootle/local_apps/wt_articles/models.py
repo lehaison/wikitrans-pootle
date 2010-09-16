@@ -5,7 +5,7 @@ from django.conf import settings
 from django.contrib.auth.models import User
 
 from wt_languages.models import LANGUAGE_CHOICES
-from wt_languages.models import TARGET_LANGUAGE,SOURCE_LANGUAGE,BOTH
+from wt_languages.models import TARGET_LANGUAGE, SOURCE_LANGUAGE, BOTH
 from wt_languages.models import LanguageCompetancy
 from wt_articles import TRANSLATORS
 from wt_articles.splitting import determine_splitter
@@ -16,7 +16,7 @@ from pootle_language.models import Language
 from pootle_translationproject.models import TranslationProject
 # from pootle_store.filetypes import filetype_choices, factory_classes, is_monolingual
 
-# from BeautifulSoup import BeautifulSoup
+from BeautifulSoup import BeautifulSoup
 from datetime import datetime
 import polib
 
@@ -145,16 +145,17 @@ class SourceArticle(models.Model):
         
         # Export the title
         poTitle = polib.POEntry(
-            msgid = "Title",
-            msgstr = self.title
+            tcomment="Title",
+            msgid=self.title
         )
         po.append(poTitle)
         
         # Export the sentences
         for sentence in self.sourcesentence_set.order_by('segment_id'):
             poEntry = polib.POEntry(
-                msgid = "%d" % sentence.segment_id,
-                msgstr = sentence.text
+                occurrences=[('segment_id', sentence.segment_id)],
+                tcomment="sentence", # TODO: Check to see if it's a sentence or a header
+                msgid=sentence.text
             )
             
             po.append(poEntry)
@@ -179,7 +180,7 @@ class SourceArticle(models.Model):
         s_count = len(sentences)
         for i in range(0, s_count):
             if i > 0 and len(sentences[i].strip()) == 0:
-                source_sentences[segment_id-1].end_of_paragraph = True
+                source_sentences[segment_id - 1].end_of_paragraph = True
             else:
                 s = SourceSentence(article=self, text=sentences[i].strip(), segment_id=segment_id)
                 
@@ -198,7 +199,7 @@ class SourceArticle(models.Model):
         """
         Determines if a Pootle project already exists for this article
         """
-        return len(Project.objects.filter(code = self.get_project_code())) > 0
+        return len(Project.objects.filter(code=self.get_project_code())) > 0
     
     def create_pootle_project(self):
         """
@@ -210,7 +211,7 @@ class SourceArticle(models.Model):
             raise Exception("Project %s already exists!" % self.get_project_name())
         
         # Fetch the source_language
-        sl_set = Language.objects.filter(code = self.language)
+        sl_set = Language.objects.filter(code=self.language)
         
         if len(sl_set) < 1:
             raise Exception("Language code %s does not exist!" % self.language)
@@ -254,7 +255,7 @@ class SourceArticle(models.Model):
         if not self.pootle_project_exists():
             raise Exception("Project does not exist!")
         
-        return Project.objects.filter(code = self.get_project_code())[0]
+        return Project.objects.filter(code=self.get_project_code())[0]
     
     def get_pootle_project_url(self):
         """
@@ -271,14 +272,15 @@ class SourceSentence(models.Model):
     end_of_paragraph = models.BooleanField(_('Paragraph closer'))
 
     class Meta:
-        ordering = ('segment_id','article')
+        ordering = ('segment_id', 'article')
 
     def __unicode__(self):
         return u"%s :: %s :: %s" % (self.id, self.segment_id, self.text)
     
     def save(self):
         super(SourceSentence, self).save()
-
+    def delete(self):
+        super(SourceSentence, seft).delete()
 class TranslationRequest(models.Model):
     article = models.ForeignKey(SourceArticle)
     target_language = models.CharField(_('Target Language'),
