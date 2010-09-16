@@ -8,6 +8,9 @@ urlpatterns = patterns('wt_articles.views',
     ### Articles related stuff
     url(r'^$', 'landing', name="articles_landing"),
     
+    # Export projects
+    url(r'^source/export/project/(?P<aid>\d+)', 'source_to_pootle_project', name="source_to_pootle_project"),
+    
     # Export articles
     url(r'^source/export/po/(?P<aid>\d+)', 'source_to_po', name="source_to_po"),
 
