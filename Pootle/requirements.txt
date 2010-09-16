@@ -41,5 +41,4 @@ python-Levenshtein>=0.10
 pycountry>=0.12.1
 
 # XML-RPC Integration with MT Server Land
-xmlrpclib>=1.0.1
 httplib2>=0.6.0
