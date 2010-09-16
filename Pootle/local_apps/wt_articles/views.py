@@ -356,6 +356,11 @@ def source_to_po(request, aid, template_name="wt_articles/source_export_po.html"
     }, context_instance=RequestContext(request))
 
 def _source_to_pootle_project(article): 
+    import logging
+    from django.utils.encoding import smart_str
+    from pootle_app.models.signals import post_template_update
+
+
     # Fetch the source_language
     sl_set = Language.objects.filter(code = article.language)
     
@@ -370,10 +375,38 @@ def _source_to_pootle_project(article):
     project.code = project.fullname.replace(" ", "_").replace(":", "_")
     # PO filetype
     #project.localfiletype = "po" # filetype_choices[0]
-    project.source_language = source_language
     
-    # Save the project
+    project.source_language = source_language
+  # Save the project
     project.save()
+    
+    templates_language = Language.objects.filter(code='templates')[0]
+    project.add_language(templates_language)
+    project.save()
+    
+    
+    #code copied for wr_articles
+    logging.debug ( "project saved")
+    # Export the article to .po and store in the templates "translation project". This will be used to generate translation requests for other languages.
+    templatesProject = project.get_template_translationproject()
+    po = article.sentences_to_po()
+    poFilePath = "%s/article.pot" % (templatesProject.abs_real_path)
+    
+    oldstats = templatesProject.getquickstats()
+    
+    # Write the file
+    with open(poFilePath, 'w') as f:
+        f.write(smart_str(po.__str__()))
+    
+    # Force the project to scan for changes.
+    templatesProject.scan_files()
+    templatesProject.update(conservative=False)
+    
+    # Log the changes
+    newstats = templatesProject.getquickstats()
+    post_template_update.send(sender=templatesProject, oldstats=oldstats, newstats=newstats)
+        
+    
     
     return project
     
