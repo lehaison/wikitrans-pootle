@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 from wt_languages.models import LANGUAGE_CHOICES
 from wt_languages.models import TARGET_LANGUAGE, SOURCE_LANGUAGE, BOTH
 from wt_languages.models import LanguageCompetancy
-from wt_articles import TRANSLATORS
+from wt_articles import TRANSLATORS, TRANSLATION_STATUSES
 from wt_articles.splitting import determine_splitter
 
 # Pootle-related imports
@@ -300,9 +300,18 @@ class TranslationRequest(models.Model):
     translator = models.CharField(_('Translator type'),
                                   max_length=512,
                                   choices=TRANSLATORS)
+    status = models.CharField(_('Request Status'),
+                              max_length=32,
+                              choices=TRANSLATION_STATUSES)
 
     def __unicode__(self):
         return u"%s: %s" % (self.target_language, self.article)
+    
+    def get_subset(self, requestStatus):
+        """
+        Retrieves all of the TranslationRequests that have a specific status
+        """
+        return TranslationRequest.objects.filter(status=requestStatus)
 
 class TranslatedSentence(models.Model):
     segment_id = models.IntegerField(_('Segment ID'))
