@@ -37,5 +37,8 @@ urlpatterns = patterns('wt_articles.views',
         'translate_post_edit', name="translate_post_edit"),
 
     ### Translation request related stuff
+    url(r'^request_translation/delete.(?P<deletedId>\d+)', 'request_translation', name="delete_request_translation"),
+    url(r'^request_translation/update', 'request_translation', {'update' : True}, name="update_translation"),
+    url(r'^request_translation/delete_all', 'request_translation', {'deleteAll': True}, name="delete_all_translation"),
     url(r'^request_translation/', 'request_translation', name="request_translation")
 )

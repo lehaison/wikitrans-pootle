@@ -42,7 +42,7 @@ class ArticleOfInterest(models.Model):
     target_language = models.CharField(_('Target language'),
                                        max_length=2,
                                        choices=LANGUAGE_CHOICES)
-
+    timestamp = models.DateTimeField(_('Import Date'), default=datetime.now())
     def __unicode__(self):
         return u"%s :: %s" % (self.title, self.target_language)
 
@@ -288,8 +288,6 @@ class SourceSentence(models.Model):
     
     def save(self):
         super(SourceSentence, self).save()
-    def delete(self):
-        super(SourceSentence, seft).delete()
 class TranslationRequest(models.Model):
     article = models.ForeignKey(SourceArticle)
     target_language = models.CharField(_('Target Language'),

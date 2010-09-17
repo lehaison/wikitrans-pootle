@@ -13,16 +13,52 @@
   {{ block.super }} » {% trans "Articles" %} » {% trans "Request" %}
 {% endblock %}
 
-{% block content %}
+{% block  content %}
+<div class="module first" lang="{{ LANGUAGE_CODE }}">
+    <div class="hd">
+        <h2>{% trans "Requested Articles" %}</h2>
+    </div>
+    <div class="bd">
+	{% if articles %}
+	    <table cellpadding="5" cellspacing="0" border="0" class="lc-list" width="100%">
+		<th>Title</th>
+         	<th>Request Date</th>
+		<th>Source Language</th>
+		<th>Target Language</th>
+                <th>Delete</th>
+		{% for article in articles %}
+		    <tr class="{% cycle odd,even %}">
+			<td><b><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></b></td>					    
+					    <td nowrap>{{ article.timestamp|date:"d F Y" }}</td>
+					    <td>{{ article.title_language }}</td>
+					    <td>{{ article.target_language }}</td>
+                                            <td><a href="delete.{{ article.id }}">{% trans "delete" %}</a></td>
+	        </td>				    
+		    </tr>
+		{% endfor %}
+	    </table>
+	{% else %}
+	    <br>{% trans "No articles match your language settings" %}
+	{% endif %}
+    </div>
+</div>
+
 <h1>{% block list-title %}{% trans "Request Translation" %}{% endblock %}</h1>
 <div id="request_block">
   <h2>{{ title }}</h2>
   <form class="uniForm" method="POST" action="">
-	<fieldset class="inlineLabels">
-	  {{ request_form|as_uni_form }}
-	  {% include "uni_form/uni_form.html" %}
+<fieldset class="inlineLabels">
+{{ request_form|as_uni_form }}
+{% include "uni_form/uni_form.html" %}
       <input type="submit" />
-	</fieldset>
+</fieldset>
   </form>
 </div>
+
+{% if user.is_staff %}
+<div id="update_block">	
+	<INPUT TYPE=BUTTON Onclick="location.href='/articles/request_translation/update'" Value= {% trans "update" %}>
+	<INPUT TYPE=BUTTON Onclick="location.href='/articles/request_translation/delete_all'" Value= "{% trans "delete all" %}">
+</div>
+{% endif %}
 {% endblock %}

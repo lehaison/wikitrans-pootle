@@ -9,17 +9,25 @@ from django.contrib.auth.decorators import login_required
 from django.views.generic import date_based
 from django.conf import settings
 from django.forms.formsets import formset_factory
-
-from wt_articles.models import SourceArticle,TranslatedArticle
-from wt_articles.models import SourceSentence,TranslatedSentence
+from django.forms import ModelForm
+from wt_articles.models import SourceArticle, TranslatedArticle
+from wt_articles.models import SourceSentence, TranslatedSentence
 from wt_articles.models import FeaturedTranslation, latest_featured_article
 from wt_articles.models import ArticleOfInterest
-from wt_articles.forms import TranslatedSentenceMappingForm,TranslationRequestForm, FixArticleForm, DummyFixArticleForm
+from wt_articles.models import TranslationRequest
+from wt_articles.forms import TranslatedSentenceMappingForm, TranslationRequestForm, FixArticleForm, DummyFixArticleForm
 from wt_articles.utils import sentences_as_html, sentences_as_html_span, target_pairs_by_user
 from wt_articles.utils import user_compatible_articles
 from wt_articles.utils import user_compatible_target_articles
 from wt_articles.utils import user_compatible_source_articles
-from wt_articles.utils import all_articles, all_source_articles, all_translated_articles
+from wt_articles.utils import all_articles, all_source_articles, all_translated_articles, all_articles_of_interest
+
+class UserForm(ModelForm):
+    class Meta:
+        model = User
+        fields = ('first_name', 'last_name', 'email')
+
+
 
 # Pootle-related imports
 from pootle_project.models import Project
@@ -198,7 +206,7 @@ def translate_from_scratch(request, source, target, title, aid, template_name="w
     else:
         initial_ss_set = [{'source_sentence': s} for s in ss_list]
         formset = TranslatedSentenceSet(initial=initial_ss_set)
-    for form,s in zip(formset.forms,ss_list):
+    for form, s in zip(formset.forms, ss_list):
         form.fields['text'].label = s.text
     
     return render_to_response(template_name, {
@@ -254,7 +262,7 @@ def translate_post_edit(request, source, target, title, aid, template_name="wt_a
     else:
         initial_ts_set = [{'text': s.text} for s in ts_list]
         formset = TranslatedSentenceSet(initial=initial_ts_set)
-    for form,s in zip(formset.forms,ss_list):
+    for form, s in zip(formset.forms, ss_list):
         form.fields['text'].label = s.text
         form.fields['text'].__dict__
     
@@ -307,10 +315,57 @@ def fix_article(request, aid, form_class=FixArticleForm, template_name="wt_artic
     }, context_instance=RequestContext(request))
 
 @login_required
-def request_translation(request, form_class=TranslationRequestForm, template_name="wt_articles/request_form.html"):
+def request_translation(request, form_class=TranslationRequestForm, template_name="wt_articles/request_form.html", deletedId= -1, deleteAll = False, update = False):
     """
-    aid in this context is the source article id
+    deletedId in this context is the deleted article id
     """
+    #Update
+    if(update):
+        from wikipydia import query_text_rendered, query_text_raw        
+        from wt_articles import DEFAULT_TRANNY    
+        if request.POST:
+            post = request.POST.copy()
+            user_form = UserForm(post, instance=request.user)
+            if user_form.is_valid():
+                user_form.save()
+                response = redirect('/accounts/' + request.user.username)
+        else:
+            articles_of_interest = ArticleOfInterest.objects.all()        
+            for article in articles_of_interest:            
+                if SourceArticle.objects.filter(title=article.title, language=article.title_language):
+                    continue
+                #article_dict = query_text_raw(article.title,
+                #                                   language=article.title_language)                                                                        
+                article_dict = query_text_rendered(article.title,
+                                               language=article.title_language)
+                print(article.title, article.title_language)                       
+                try:
+                    source_article = SourceArticle(title=article.title,
+                                               language=article.title_language,
+                                               #source_text=article_dict['text'],
+                                               source_text=article_dict['html'],
+                                               timestamp=datetime.now(),
+                                               doc_id=article_dict['revid'])
+                    source_article.save()
+                    tr = TranslationRequest(article=source_article,
+                                         target_language=article.target_language,
+                                         date=datetime.now(),
+                                         translator=DEFAULT_TRANNY)
+                    tr.save()                                    
+                except Exception as e:
+                    print type(e)
+                    print e.args
+                    try:
+                        source_article.delete()
+                        tr.delete()
+                    except:
+                        pass         
+ ###Delete             
+    if(deletedId != -1):
+        article = ArticleOfInterest.objects.filter(id=deletedId)
+        article.delete()
+    if(deleteAll):
+       ArticleOfInterest.objects.all().delete()        
     if request.method == "POST":
         request_form = form_class(request.POST)
         if request_form.is_valid():
@@ -324,14 +379,18 @@ def request_translation(request, form_class=TranslationRequestForm, template_nam
                 translation_request = request_form.save(commit=False)
                 translation_request.date = datetime.now()
                 translation_request.save()
-            return render_to_response("wt_articles/requests_thankyou.html", {},
-                                      context_instance=RequestContext(request))
+            #return render_to_response("wt_articles/requests_thankyou.html", {},
+            #                          context_instance=RequestContext(request))
     else:
         request_form = form_class()
-        
+     
+    articles = all_articles_of_interest()
     return render_to_response(template_name, {
         "request_form": request_form,
+        "articles": articles,
     }, context_instance=RequestContext(request))
+
+
 
 @login_required
 def source_to_po(request, aid, template_name="wt_articles/source_export_po.html"):
@@ -351,13 +410,13 @@ def source_to_po(request, aid, template_name="wt_articles/source_export_po.html"
     po = article.sentences_to_po()
     from django.utils.encoding import smart_str
     return render_to_response(template_name, {
-        "po": smart_str( po ),
+        "po": smart_str(po),
         "title": article.title
     }, context_instance=RequestContext(request))
 
 def _source_to_pootle_project(article): 
     # Fetch the source_language
-    sl_set = Language.objects.filter(code = article.language)
+    sl_set = Language.objects.filter(code=article.language)
     
     if len(sl_set) < 1:
         return false

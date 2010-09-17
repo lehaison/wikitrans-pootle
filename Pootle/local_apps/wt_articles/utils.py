@@ -6,7 +6,7 @@ from django.utils.safestring import SafeUnicode
 
 from wt_languages.models import TARGET_LANGUAGE, SOURCE_LANGUAGE, BOTH
 from wt_languages.models import LanguageCompetancy
-from wt_articles.models import SourceArticle, SourceSentence, TranslatedArticle, TranslatedSentence
+from wt_articles.models import SourceArticle, SourceSentence, TranslatedArticle, TranslatedSentence, ArticleOfInterest
 from wt_articles import GOOGLE,APERTIUM
 from wt_articles import MECHANICAL_TURK,HUMAN,DEFAULT_TRANNY
 
@@ -72,6 +72,8 @@ def _all_articles(article_model):
 
 def all_source_articles():
     return _all_articles(SourceArticle)
+def all_articles_of_interest():
+    return _all_articles(ArticleOfInterest)
 
 def all_translated_articles():
     return _all_articles(TranslatedArticle)
