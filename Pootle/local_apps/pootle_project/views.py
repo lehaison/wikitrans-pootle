@@ -28,6 +28,7 @@ from django.template import RequestContext
 from django import forms
 from django.forms.models import BaseModelFormSet
 from django.core.exceptions import PermissionDenied
+from django.http import HttpResponseRedirect, Http404
 
 from pootle_misc.baseurl import l
 from pootle_misc.forms import LiberalModelChoiceField
@@ -75,8 +76,8 @@ def make_language_item(request, translation_project):
     info.update(stats_descriptions(projectstats))
     return info
 
-
-def project_language_index(request, project_code):
+#this function has been removed
+def _project_language_index(request, project_code):
     """page listing all languages added to project"""
     project = get_object_or_404(Project, code=project_code)
     request.permissions = get_matching_permissions(get_profile(request.user), project.directory)
@@ -123,6 +124,89 @@ class TranslationProjectFormSet(BaseModelFormSet):
         result = super(TranslationProjectFormSet, self).save_new(form, commit)
         form.process_extra_fields()
         return result
+
+def project_language_index(request, project_code):
+    """page listing all languages added to project with the possibility to add new ones"""
+    
+    import logging 
+    current_project = get_object_or_404(Project, code=project_code)
+    request.permissions = get_matching_permissions(get_profile(request.user), current_project.directory)
+    #TODO: maybe find a clever way to check permission
+    if not check_permission('view', request):
+        raise PermissionDenied
+    
+    #load the current project
+    class TranslationProjectForm(forms.ModelForm):
+        
+        #since the user has already selected the project he wants to add the languages to
+        #we hide the field of the project reference
+        project = forms.ModelChoiceField(queryset=Project.objects.filter(pk=current_project.pk),
+                                         initial=current_project.pk, widget=forms.HiddenInput)
+        
+        #form will be based on/extend the TranslationProject object
+        class Meta:
+            model = TranslationProject
+   
+    if request.method == 'POST': # If the form has been submitted...
+        form = TranslationProjectForm(request.POST) # A form bound to the POST data
+        if form.is_valid(): # All validation rules pass
+            
+            #proceed with filling in the form values exactly as in the model
+            logging.debug("Saving form")
+            translation_project = form.save() 
+            
+            #generate the empty .po translation file for the new language
+            #based on the template
+            translation_project.update_from_templates()
+            translation_project.getcompletestats()
+            translation_project.getquickstats()
+            
+            openproject = translation_project.project
+            current_project = translation_project.project
+        
+            return  HttpResponseRedirect( openproject._get_pootle_path() ) # Redirect after POST
+    else:
+        form = TranslationProjectForm() # An unbound form
+        logging.debug("Unbound form")
+        
+        logging.debug("%s, %s, ", current_project.code, current_project.fullname )
+
+    
+
+    translation_projects = current_project.translationproject_set.all()
+    items = [make_language_item(request, translation_project) for translation_project in translation_projects.iterator()]
+    items.sort(lambda x, y: locale.strcoll(x['title'], y['title']))
+    languagecount = len(translation_projects)
+    totals = add_percentages(current_project.getquickstats())
+    average = totals['translatedpercentage']
+
+    topstats = gentopstats_project(current_project)
+
+    templatevars = {
+        'form' : form,
+        'project': {
+          'code': current_project.code,
+          'name': current_project.fullname,
+          'stats': ungettext('%(languages)d language, %(average)d%% translated',
+                             '%(languages)d languages, %(average)d%% translated',
+                             languagecount, {"languages": languagecount, "average": average})
+        },
+        'description': current_project.description,
+        'adminlink': _('Admin'),
+        'languages': items,
+        'instancetitle': pagelayout.get_title(),
+        'topstats': topstats,
+        'statsheadings': get_stats_headings(),
+        'translationlegend': {'translated': _('Translations are complete'),
+                    'fuzzy': _('Translations need to be checked (they are marked fuzzy)'
+                    ), 'untranslated': _('Untranslated')},
+    }
+    
+    
+    return render_to_response( 'project/project_edit.html', templatevars, context_instance=RequestContext(request) )
+    
+     
+
 
 def project_admin(request, project_code):
     """adding and deleting project languages"""
