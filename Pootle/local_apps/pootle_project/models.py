@@ -20,6 +20,7 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 import os
+import logging
 
 from django.utils.translation import ugettext_lazy as _
 from django.db                import models
@@ -167,19 +168,26 @@ class Project(models.Model):
         return "nongnu"
 
     def get_template_translationproject(self):
+        
         try:
+            logging.debug ( "printing templates" )
             return self.translationproject_set.get(language__code='templates')
         except ObjectDoesNotExist:
             try:
+                logging.debug ( "failed, creating new one" )
                 return self.translationproject_set.get(language=self.source_language_id)
             except ObjectDoesNotExist:
+                logging.debug ( "failed again, you need to think something" )
                 pass
             
     def add_language(self, language):
         """
         Adds a language as a translation project.
         """
+        import logging
+        
         from pootle_translationproject.models import TranslationProject
+        logging.debug("Project ID: %s, language id: %s", self.id , language.id)
         tp = TranslationProject(project_id = self.id,
                                 language_id = language.id)
         
