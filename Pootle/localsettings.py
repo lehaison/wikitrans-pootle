@@ -153,3 +153,13 @@ MT_BACKENDS = [
 #        ('APERTIUM', ''),
         ('GOOGLE_TRANSLATE', '') #,
 ]
+
+# MT Serverland Configuration
+SERVERLAND_TOKEN = 'eb4cfd35'
+# SERVERLAND_HOST = 'http://localhost'
+# SERVERLAND_PORT = 8000
+# TODO: Currently the Serverland protocol uses a XML-RPC server to issue a translation request.
+# We need to verify that this works properly.
+SERVERLAND_XMLRPC = 'http://0.0.0.0:6666'
+
+
