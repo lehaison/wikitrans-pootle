@@ -29,11 +29,11 @@ class Command(NoArgsCommand):
                                                timestamp=datetime.now(),
                                                doc_id=article_dict['revid'])
                 source_article.save()
-                tr = TranslationRequest(article=source_article,
-                                         target_language=article.target_language,
-                                         date=datetime.now(),
-                                         translator=DEFAULT_TRANNY)
-                tr.save()
+                #tr = TranslationRequest(article=source_article,
+                #                         target_language=article.target_language,
+                #                         date=datetime.now(),
+                #                         translator=DEFAULT_TRANNY)
+                #tr.save()
             except Exception as e:
                 print type(e)
                 print e.args
