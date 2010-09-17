@@ -36,6 +36,7 @@ from pootle_app.views.top_stats import gentopstats_root
 from pootle.i18n.gettext import tr_lang
 from pootle_app.views.language.item_dict import add_percentages
 from wt_articles.models import SourceArticle
+from wt_articles.utils import all_articles, all_source_articles, all_translated_articles
 
 def limit(query):
     return query[:5]
@@ -86,6 +87,7 @@ def getprojects(request):
 
     return get_items(request, Project, get_last_action, lambda name: name)
 
+    
 
 def view(request):
     request.permissions = get_matching_permissions(get_profile(request.user), Directory.objects.root)
@@ -108,6 +110,8 @@ def view(request):
         'languages': getlanguages(request),
         'projectlink': _('Projects'),
         'projects': getprojects(request),
+        'articlelink': _('Articles'),
+        'articles': all_source_articles(),
         'topstats': topstats,
         'instancetitle': pagelayout.get_title(),
         'translationlegend': {'translated': _('Translations are complete'),
