@@ -155,11 +155,7 @@ INSTALLED_APPS = (
     'wt_languages',
     'wt_articles',
     'wt_managing',
-<<<<<<< HEAD
-    'mturk_manager',
-=======
     'mturk_manager'
->>>>>>> upstream/master
 )
 
 AUTH_PROFILE_MODULE = "pootle_profile.PootleProfile"
