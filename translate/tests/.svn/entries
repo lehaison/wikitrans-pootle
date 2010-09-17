@@ -1,34 +1,0 @@
-9
-
-dir
-15578
-https://translate.svn.sourceforge.net/svnroot/translate/src/trunk/translate/tests
-https://translate.svn.sourceforge.net/svnroot/translate
-
-
-
-2010-08-10T09:57:50.553570Z
-15407
-friedelwolff
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-54714841-351b-0410-a198-e36a94b762f5
-
-odf_xliff
-dir
-
-xliff_conformance
-dir
-

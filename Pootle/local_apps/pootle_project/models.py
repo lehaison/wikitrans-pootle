@@ -170,14 +170,11 @@ class Project(models.Model):
     def get_template_translationproject(self):
         
         try:
-            logging.debug ( "printing templates" )
             return self.translationproject_set.get(language__code='templates')
         except ObjectDoesNotExist:
             try:
-                logging.debug ( "failed, creating new one" )
                 return self.translationproject_set.get(language=self.source_language_id)
             except ObjectDoesNotExist:
-                logging.debug ( "failed again, you need to think something" )
                 pass
             
     def add_language(self, language):

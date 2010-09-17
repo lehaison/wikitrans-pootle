@@ -424,7 +424,7 @@ def _source_to_pootle_project(article):
     sl_set = Language.objects.filter(code=article.language)
     
     if len(sl_set) < 1:
-        return false
+        return False
 
     source_language = sl_set[0]
         
