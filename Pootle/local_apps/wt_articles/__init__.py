@@ -1,6 +1,8 @@
 HUMAN = 'Human'
-GOOGLE = 'Google'
-APERTIUM = 'Apertium'
+GOOGLE = 'GoogleWooker'
+BING = 'BingWorker'
+APERTIUM = 'ApertiumWorker'
+LUCY = 'LucyWorker'
 MECHANICAL_TURK = 'Mechanical Turk'
 
 TRANSLATORS = (
